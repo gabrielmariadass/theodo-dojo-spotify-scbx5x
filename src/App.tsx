@@ -30,6 +30,7 @@ const App = () => {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1 className="App-title">BIENVENUE</h1>
+      <p> Nombre de pistes disponibles : {data.length} </p>
       </header>
       <div className="App-images">
       <audio src={trackUrls[trackIndex]} autoPlay controls />
