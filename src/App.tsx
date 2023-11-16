@@ -33,7 +33,7 @@ const App = () => {
       <p>Nombre de pistes disponibles : {tracks ? tracks.length : 0}</p>
       </header>
       <div className="App-images">
-      <audio src={tracks[trackIndex]} autoPlay controls />
+      <audio src={tracks[trackIndex].track.preview_url} autoPlay controls />
 <button onClick={goToNextTrack}>
     Next track
 </button>   
